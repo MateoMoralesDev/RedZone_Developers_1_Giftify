@@ -18,4 +18,4 @@
 - https://www.santinomarket.com.ar/ (Ideas de diseño).
 - https://www.zonaprop.com.ar/ (Idea para implementación, buscador en la página principal).
 ### Wireframe del proyecto:
-https://miro.com/app/board/uXjVOUhAfAM=/
+- https://miro.com/app/board/uXjVOUhAfAM=/
