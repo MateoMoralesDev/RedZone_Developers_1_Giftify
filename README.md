@@ -19,3 +19,5 @@
 - https://www.zonaprop.com.ar/ (Idea para implementación, buscador en la página principal).
 ### Wireframe del proyecto:
 - https://miro.com/app/board/uXjVOUhAfAM=/
+### Tablero de trabajo:
+- https://trello.com/b/KwfzGrga/redzone-developers-dh-tn27
