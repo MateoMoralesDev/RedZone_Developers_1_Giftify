@@ -1,7 +1,142 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    
+/*  css del carrito de compras INICIO */
+
+form.centro-form {
+    margin: auto;
+    margin-top: 20px;
+    background-color: darkgray;
+    border-radius: 50px 50px 50px 50px;
+    width: 60%;
 }
 
+main section div.centro-compra {
+    display: flex;
+    justify-content: center;
+}
+
+article img {
+    width: 10vw;
+    height: 10vw;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+article img:hover {
+    width: 10vw;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+
+section article.product {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    margin-top: 30px;
+    background-color: azure;
+    border-radius: 10px;
+    gap: 15px;
+    width: 90vw;
+    height: 30vh;
+}
+
+.description-product {
+    width: 50vw;
+    height: 30vh;
+    margin-top: 15px;
+}
+
+h3.name-product {
+    font-style: italic;
+}
+
+.price {
+    color: #76bc21;
+    font-size: 24px;
+    width: 40vw;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.price-descuento {
+    color: red;
+    font-size: 24px;
+    width: 40vw;
+}
+
+.detalle-product {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.cantidad-product {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.boton-compra {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.but {
+    border-color: #76bc21;
+    border-radius: 0;
+    color: #76bc21;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    -webkit-transition: color 150ms ease-in-out;
+    transition: color 150ms ease-in-out;
+    cursor: pointer;
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.but:after {
+    content: '';
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 0;
+    height: 100%;
+    background: #76bc21;
+    z-index: -1;
+    -webkit-transition: width 150ms ease-in-out;
+    transition: width 150ms ease-in-out;
+}
+
+.but:hover {
+    color: black;
+    font-size: 18px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.but:hover:after {
+    width: 110%;
+}
+
+.buton-input {
+    width: 50px;
+    height: 25px;
+    background-color: darkgrey;
+    border-radius: 5px;
+    border: none;
+    color: black;
+    justify-content: center;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.total-pagos {
+    margin-left: 30px;
+}
+
+
+/* hasta aca llega el css del carrito de compras FIN */
