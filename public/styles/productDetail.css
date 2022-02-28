@@ -1,0 +1,41 @@
+.productos{
+    display: flex;
+    list-style: none; 
+    justify-content: space-around;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom:100px ;
+    
+
+
+}
+
+.productos li{
+    display: flex;
+    border: solid red 1px;
+    height: 500px;
+    width: 350px;
+    margin-top: 100px;
+    text-align: center;
+    flex-direction: row;
+    border:solid  20px #7A0BC0;
+    border-radius: 40px;
+
+}
+.productos li .iz{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    border: solid red 1px;
+}
+.productos li img{
+  
+    width: 170px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.productos li .comentarios, .productos li .descripcion {
+    margin-top: 20px;
+    border: solid red 1px;
+}
